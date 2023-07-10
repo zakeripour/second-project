@@ -1,0 +1,29 @@
+.first{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.user-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+.btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.btn-item{
+    margin: 2px ;
+    padding: 10px;
+    border-radius: 30%;
+    border: none;
+    background-color: pink;
+    font-size: 15px;
+   
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
